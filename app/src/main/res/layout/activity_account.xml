@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AccountFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAPTOPS"
+        android:layout_gravity="center"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/Escritorio"
+            android:layout_width="176dp"
+            android:layout_height="135dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/compu1" />
+
+        <ImageView
+            android:id="@+id/laptop"
+            android:layout_width="176dp"
+            android:layout_height="135dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/compu2"
+            tools:ignore="laptop" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp"
+        android:orientation="horizontal">
+        <Button
+
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+
+            android:text="Escritorio"
+            android:textStyle="bold" />
+        <Button
+
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="LAPTOP"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="126dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp"
+        android:orientation="horizontal">
+
+        <ImageView
+
+            android:layout_width="176dp"
+            android:layout_height="135dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/compu3" />
+
+        <ImageView
+            android:id="@+id/dosenuno"
+            android:layout_width="176dp"
+            android:layout_height="135dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/compu4" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btGamer"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:onClick="Gamer"
+            android:text="Gaming"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btDosenuno"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:onClick="Dosenuno"
+            android:text="2 en 1 "
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
