@@ -5,15 +5,236 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/fondo1"
     tools:context=".HomeFragment">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="PC ESCRITORIO"
+        android:background="#FFFFFF"
         android:layout_gravity="center"
         android:textSize="23sp"
         android:textStyle="bold"
         android:layout_marginTop="50dp"/>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="176dp"
+                    android:layout_height="135dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/escritorio1" />
+
+                <ImageView
+                    android:layout_width="176dp"
+                    android:layout_height="135dp"
+                    android:layout_marginLeft="41dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/escritorio2" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="3dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="179dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="DELL Desktop     Valor:$114.75" />
+
+            <Button
+                android:layout_width="177dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="39dp"
+                android:onClick="Escritorio2"
+                android:text="Dell Optiplex 3070 SFF MLK PC "
+                android:textStyle="bold" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="176dp"
+                    android:layout_height="135dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/escritorio3" />
+
+                <ImageView
+                    android:layout_width="176dp"
+                    android:layout_height="135dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/escritorio4"
+                    tools:ignore="laptop" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="179dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="COMPUMAX1047 - VALOR:1.514.000 " />
+
+                <Button
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="39dp"
+                    android:onClick="DELL2"
+                    android:text="Dell Optiplex 3070 SFF MLK PC "
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="176dp"
+                    android:layout_height="135dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/escritorio5" />
+
+                <ImageView
+                    android:layout_width="176dp"
+                    android:layout_height="135dp"
+                    android:layout_marginLeft="41dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/escritorio6" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="179dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ESCRITORIO JANUS VALOR:2.120.000" />
+
+                <Button
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="39dp"
+                    android:onClick="DELL2"
+                    android:text="Dell Optiplex 3070 SFF MLK PC "
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="176dp"
+                    android:layout_height="135dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/escritorio7" />
+
+                <ImageView
+
+                    android:layout_width="176dp"
+                    android:layout_height="135dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/escritorio8"
+                    tools:ignore="laptop" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="179dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Lenovo V520 i5-7400 VALOR:420.190 " />
+
+                <Button
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="39dp"
+                    android:onClick="DELL2"
+                    android:text="Dell Optiplex 3070 SFF MLK PC "
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="176dp"
+                    android:layout_height="135dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/escritorio9" />
+
+                <ImageView
+                    android:layout_width="176dp"
+                    android:layout_height="135dp"
+                    android:layout_marginLeft="41dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/escritorio10" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="179dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="DELL OPTIPLEX SMALL  VALOR:249.99 " />
+
+                <Button
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="39dp"
+                    android:onClick="DELL2"
+                    android:text="Dell Optiplex 3070 SFF MLK PC "
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

@@ -5,12 +5,11 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.Lifecycle;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
-
 import java.util.ArrayList;
 
-public class Adapater extends FragmentStateAdapter {
+public class Adapter extends FragmentStateAdapter {
     ArrayList<Fragment>arrayList=new ArrayList<>();
-    public Adapater(@NonNull FragmentManager fragmentManager, @NonNull Lifecycle lifecycle) {
+    public Adapter(@NonNull FragmentManager fragmentManager, @NonNull Lifecycle lifecycle) {
         super(fragmentManager, lifecycle);
     }
 

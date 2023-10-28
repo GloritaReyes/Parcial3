@@ -5,107 +5,191 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/fondo2"
     tools:context=".AccountFragment">
-
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="LAPTOPS"
+        android:background="#FFFFFF"
         android:layout_gravity="center"
         android:textSize="23sp"
         android:textStyle="bold"
         android:layout_marginTop="50dp"/>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="3dp"
-        android:orientation="horizontal">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/Escritorio"
-            android:layout_width="176dp"
-            android:layout_height="135dp"
-            android:layout_marginBottom="20dp"
-            app:srcCompat="@drawable/compu1" />
-
-        <ImageView
-            android:id="@+id/laptop"
-            android:layout_width="176dp"
-            android:layout_height="135dp"
-            android:layout_marginBottom="20dp"
-            app:srcCompat="@drawable/compu2"
-            tools:ignore="laptop" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="3dp"
-        android:orientation="horizontal">
-        <Button
-
-            android:layout_width="155dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:baselineAligned="false"
+            android:orientation="vertical" >
 
-            android:text="Escritorio"
-            android:textStyle="bold" />
-        <Button
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal">
 
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:text="LAPTOP"
-            android:textStyle="bold" />
-    </LinearLayout>
+                <ImageView
+                    android:layout_width="176dp"
+                    android:layout_height="135dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/portatil7" />
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="126dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="3dp"
-        android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="176dp"
+                    android:layout_height="135dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/portatil8" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="179dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Button" />
 
-        <ImageView
+                <Button
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="39dp"
+                    android:onClick="DELL2"
+                    android:text="Dell Optiplex 3070 SFF MLK PC "
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal">
 
-            android:layout_width="176dp"
-            android:layout_height="135dp"
-            android:layout_marginBottom="20dp"
-            app:srcCompat="@drawable/compu3" />
+                <ImageView
+                    android:layout_width="176dp"
+                    android:layout_height="135dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/portatil5" />
 
-        <ImageView
-            android:id="@+id/dosenuno"
-            android:layout_width="176dp"
-            android:layout_height="135dp"
-            android:layout_marginBottom="20dp"
-            app:srcCompat="@drawable/compu4" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="3dp"
-        android:orientation="horizontal">
-        <Button
-            android:id="@+id/btGamer"
-            android:layout_width="155dp"
-            android:layout_height="wrap_content"
-            android:baselineAligned="false"
-            android:onClick="Gamer"
-            android:text="Gaming"
-            android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="172dp"
+                    android:layout_height="135dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/portatil6" />
 
-        <Button
-            android:id="@+id/btDosenuno"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:onClick="Dosenuno"
-            android:text="2 en 1 "
-            android:textStyle="bold" />
-    </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="179dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Button" />
 
+                <Button
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="39dp"
+                    android:onClick="DELL2"
+                    android:text="Dell Optiplex 3070 SFF MLK PC "
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal">
 
+                <ImageView
+                    android:layout_width="176dp"
+                    android:layout_height="135dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/portatil3" />
 
+                <ImageView
+                    android:layout_width="176dp"
+                    android:layout_height="135dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/portatil4" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="179dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Button" />
+
+                <Button
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="39dp"
+                    android:onClick="DELL2"
+                    android:text="Dell Optiplex 3070 SFF MLK PC "
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="176dp"
+                    android:layout_height="135dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/portatil1" />
+
+                <ImageView
+                    android:layout_width="172dp"
+                    android:layout_height="135dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/portatil2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="179dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Button" />
+
+                <Button
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="39dp"
+                    android:onClick="DELL2"
+                    android:text="Dell Optiplex 3070 SFF MLK PC "
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

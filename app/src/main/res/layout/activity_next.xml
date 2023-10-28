@@ -13,7 +13,7 @@
         android:text="BIENVENIDO A LA TIENDA TECNOLOGICA!"
         android:layout_gravity="center"
         android:textSize="20sp"
-        android:textColor="#ADD8E6"
+        android:textColor="#FFFFFF"
         android:textStyle="bold"
         android:layout_marginTop="50dp"/>
 
@@ -30,7 +30,7 @@
         android:text="Direccion:Calle 17 # 3-107!"
         android:layout_gravity="center"
         android:textSize="20sp"
-        android:textColor="#ADD8E6"
+        android:textColor="#FFFFFF"
         android:textStyle="bold"
         android:layout_marginTop="50dp"/>
 
@@ -40,7 +40,7 @@
         android:text="Telefono:3164477025!"
         android:layout_gravity="center"
         android:textSize="20sp"
-        android:textColor="#ADD8E6"
+        android:textColor="#FFFFFF"
         android:textStyle="bold"
         android:layout_marginTop="50dp"/>
 

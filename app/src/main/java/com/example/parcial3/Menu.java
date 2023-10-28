@@ -1,16 +1,14 @@
 package com.example.parcial3;
 
 import android.os.Bundle;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
-
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
 public class Menu extends AppCompatActivity {
-    Adapater mAdpater;
+    Adapter mAdapter;
     ViewPager2 viewpager2;
 
     @Override
@@ -18,13 +16,13 @@ public class Menu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
         viewpager2 = findViewById(R.id.viewPager2);
-        mAdpater =new Adapater(getSupportFragmentManager(),getLifecycle());
-        mAdpater.addFragment(new HomeFragment());
-        mAdpater.addFragment(new AccountFragment());
-        mAdpater.addFragment(new SettingFragment());
-        mAdpater.addFragment(new AccesoriosFragment());
+        mAdapter =new Adapter(getSupportFragmentManager(),getLifecycle());
+        mAdapter.addFragment(new HomeFragment());
+        mAdapter.addFragment(new AccountFragment());
+        mAdapter.addFragment(new SettingFragment());
+        mAdapter.addFragment(new AccesoriosFragment());
 
-        viewpager2.setAdapter(mAdpater);
+        viewpager2.setAdapter(mAdapter);
 
         TabLayout tablayout =findViewById(R.id.tabLayout);
 
