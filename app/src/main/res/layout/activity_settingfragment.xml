@@ -18,266 +18,268 @@
         android:textStyle="bold"
         android:layout_marginTop="50dp"/>
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <LinearLayout
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:layout_height="wrap_content">
 
-            <LinearLayout
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <GridLayout
+                android:columnCount="2"
+                android:rowCount="5"
+                android:alignmentMode="alignMargins"
+                android:columnOrderPreserved="false"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="3dp"
-                android:orientation="horizontal">
+                android:layout_height="wrap_content">
 
-                <ImageView
-                    android:layout_width="176dp"
-                    android:layout_height="135dp"
-                    android:layout_marginBottom="20dp"
-                    app:srcCompat="@drawable/celular5" />
-
-                <ImageView
-                    android:layout_width="172dp"
-                    android:layout_height="135dp"
-                    android:layout_marginLeft="40dp"
-                    android:layout_marginBottom="20dp"
-                    app:srcCompat="@drawable/celular6" />
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="3dp"
-                android:orientation="horizontal">
-                <Button
-                    android:layout_width="179dp"
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Button" />
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_margin="12dp">
 
-                <Button
-                    android:layout_width="177dp"
+                    <LinearLayout
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/celular1" />
+
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:text="er"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="39dp"
-                    android:onClick="DELL2"
-                    android:text="Dell Optiplex 3070 SFF MLK PC "
-                    android:textStyle="bold" />
-            </LinearLayout>
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_margin="12dp">
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="3dp"
-                android:orientation="horizontal">
+                    <LinearLayout
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
 
-                <ImageView
-                    android:layout_width="176dp"
-                    android:layout_height="135dp"
-                    android:layout_marginBottom="20dp"
-                    app:srcCompat="@drawable/celular3" />
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/celular2" />
 
-                <ImageView
-                    android:layout_width="176dp"
-                    android:layout_height="135dp"
-                    android:layout_marginLeft="40dp"
-                    android:layout_marginBottom="20dp"
-                    app:srcCompat="@drawable/celular4" />
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="3dp"
-                android:orientation="horizontal">
-                <Button
-                    android:layout_width="179dp"
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:text="rss"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Button" />
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_margin="12dp">
 
-                <Button
-                    android:layout_width="177dp"
+                    <LinearLayout
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/celular3" />
+
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:text="Co"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:textSize="1dp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:text="1.514.000"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="39dp"
-                    android:onClick="DELL2"
-                    android:text="Dell Optiplex 3070 SFF MLK PC "
-                    android:textStyle="bold" />
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="3dp"
-                android:orientation="horizontal">
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_margin="12dp">
 
-                <ImageView
-                    android:layout_width="176dp"
-                    android:layout_height="135dp"
-                    android:layout_marginBottom="20dp"
-                    app:srcCompat="@drawable/celular1" />
+                    <LinearLayout
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
 
-                <ImageView
-                    android:layout_width="172dp"
-                    android:layout_height="135dp"
-                    android:layout_marginLeft="40dp"
-                    android:layout_marginBottom="20dp"
-                    app:srcCompat="@drawable/celular2" />
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/celular4" />
 
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="3dp"
-                android:orientation="horizontal">
-                <Button
-                    android:layout_width="179dp"
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:text="yes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Button" />
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_margin="12dp">
 
-                <Button
-                    android:layout_width="177dp"
+                    <LinearLayout
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/celular5" />
+
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:text="Jas"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="39dp"
-                    android:onClick="DELL2"
-                    android:text="Dell Optiplex 3070 SFF MLK PC "
-                    android:textStyle="bold" />
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="3dp"
-                android:orientation="horizontal">
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_margin="12dp">
 
-                <ImageView
-                    android:layout_width="176dp"
-                    android:layout_height="135dp"
-                    android:layout_marginBottom="20dp"
-                    app:srcCompat="@drawable/celular7" />
+                    <LinearLayout
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
 
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="3dp"
-                android:orientation="horizontal">
-                <Button
-                    android:layout_width="179dp"
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/celular6" />
+
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:text="ffff"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Button" />
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="5dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_margin="12dp">
 
-            </LinearLayout>
-        </LinearLayout>
-    </ScrollView>
+                    <LinearLayout
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="3dp"
-        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/celular7" />
 
-        <Button
-            android:layout_width="175dp"
-            android:layout_height="wrap_content"
-            android:baselineAligned="false"
-            android:onClick="DELL1"
-            android:text="DELL OptiPlex 7400 "
-            android:textStyle="bold" />
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:text="sss"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
 
-        <Button
-            android:layout_width="174dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="43dp"
-            android:baselineAligned="false"
-            android:onClick="DELL1"
-            android:text="DELL OptiPlex 7400 "
-            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+        </ScrollView>
     </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="3dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:layout_width="175dp"
-            android:layout_height="wrap_content"
-            android:baselineAligned="false"
-            android:onClick="DELL1"
-            android:text="DELL OptiPlex 7400 "
-            android:textStyle="bold" />
-
-        <Button
-            android:layout_width="174dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="43dp"
-            android:baselineAligned="false"
-            android:onClick="DELL1"
-            android:text="DELL OptiPlex 7400 "
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="3dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:layout_width="175dp"
-            android:layout_height="wrap_content"
-            android:baselineAligned="false"
-            android:onClick="DELL1"
-            android:text="DELL OptiPlex 7400 "
-            android:textStyle="bold" />
-
-        <Button
-            android:layout_width="174dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="43dp"
-            android:baselineAligned="false"
-            android:onClick="DELL1"
-            android:text="DELL OptiPlex 7400 "
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="3dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:layout_width="175dp"
-            android:layout_height="wrap_content"
-            android:baselineAligned="false"
-            android:onClick="DELL1"
-            android:text="DELL OptiPlex 7400 "
-            android:textStyle="bold" />
-
-        <Button
-            android:layout_width="174dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="43dp"
-            android:baselineAligned="false"
-            android:onClick="DELL1"
-            android:text="DELL OptiPlex 7400 "
-            android:textStyle="bold" />
-    </LinearLayout>
-
 </LinearLayout>
